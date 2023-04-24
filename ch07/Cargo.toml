@@ -1,0 +1,11 @@
+[workspace]
+
+members = [
+    "app",
+    "lib",
+    "lib2",
+    "lib3"
+]
+
+[toolchain]
+channel = "nightly"

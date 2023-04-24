@@ -1,0 +1,16 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+lib = { path = "../lib" }
+lib2 = { path = "../lib2" }
+lib3 = { path = "../lib3" }
+rand = "0.8.5"
+
+[toolchain]
+channel = "nightly"
