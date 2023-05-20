@@ -1,0 +1,3 @@
+Hello Rust!!!
+
+Rust yes!
