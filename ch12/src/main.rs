@@ -3,9 +3,7 @@ use std::{env, process};
 use ch12::Config;
 
 fn main() {
-    let args: Vec<String> = env::args().collect();
-
-    match Config::new(&args) {
+    match Config::new(env::args()) {
         Ok(config) => {
             if let Err(e) = ch12::run(config) {
                 eprintln!("Application error: {e}");
